@@ -1,0 +1,1 @@
+// Script du site vitrine
