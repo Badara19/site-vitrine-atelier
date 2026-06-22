@@ -2,11 +2,342 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Site Vitrine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexoria — Cabinet de Conseil en Stratégie & Transformation</title>
+  <meta name="description" content="Nexoria accompagne les entreprises dans leur transformation stratégique, digitale et organisationnelle. Des solutions sur-mesure pour des résultats durables.">
+  <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Bienvenue sur notre site vitrine</h1>
-  <script src="js/script.js"></script>
+
+<!-- ═══════════════ NAV ═══════════════════ -->
+<nav class="nav">
+  <a href="#accueil" class="nav__logo">Nexo<span>ria</span></a>
+  <ul class="nav__links">
+    <li><a href="#a-propos">À propos</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#equipe">Équipe</a></li>
+    <li><a href="#contact" class="nav__cta">Nous contacter</a></li>
+  </ul>
+  <button class="nav__burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="nav__mobile">
+  <a href="#accueil">Accueil</a>
+  <a href="#a-propos">À propos</a>
+  <a href="#services">Services</a>
+  <a href="#equipe">Équipe</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ═══════════════ HERO ══════════════════ -->
+<section class="hero" id="accueil">
+  <div class="hero__content">
+    <p class="hero__eyebrow reveal">Cabinet de conseil · Depuis 2014</p>
+    <h1 class="hero__title reveal reveal-delay-1">
+      Votre stratégie,<br><em>notre expertise.</em>
+    </h1>
+    <p class="hero__sub reveal reveal-delay-2">
+      Nexoria accompagne les dirigeants et les organisations dans leurs décisions les plus complexes — avec rigueur, clarté et engagement.
+    </p>
+    <div class="hero__actions reveal reveal-delay-3">
+      <a href="#services" class="btn btn--primary">Nos services</a>
+      <a href="#contact" class="btn btn--ghost">Prendre contact →</a>
+    </div>
+  </div>
+
+  <div class="hero__visual">
+    <div class="hero__bg-pattern"></div>
+    <div class="hero__shape hero__shape--1"></div>
+    <div class="hero__shape hero__shape--2"></div>
+    <div class="hero__card hero__card--1">
+      <div class="hero__card-num">+200</div>
+      <div class="hero__card-label">Missions réalisées</div>
+    </div>
+    <div class="hero__card hero__card--2">
+      <div class="hero__card-num">97%</div>
+      <div class="hero__card-label">Taux de satisfaction</div>
+    </div>
+    <div class="hero__scroll">Scroll</div>
+  </div>
+</section>
+
+<!-- ═══════════════ À PROPOS ══════════════ -->
+<section class="section about" id="a-propos">
+  <div class="container about__grid">
+    <div class="about__visual">
+      <div class="about__img-wrap">
+        <div class="about__img-pattern"></div>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:8rem;opacity:0.15;">🏛️</div>
+      </div>
+      <div class="about__img-accent"></div>
+      <div class="about__img-badge">
+        <strong>10</strong>
+        <span>ans d'expertise</span>
+      </div>
+    </div>
+
+    <div class="about__content">
+      <p class="section-tag reveal">À propos de nous</p>
+      <h2 class="section-title reveal reveal-delay-1">Un cabinet fondé sur <em>l'excellence</em></h2>
+      <p class="section-lead reveal reveal-delay-2">
+        Fondé à Dakar en 2014, Nexoria est un cabinet de conseil indépendant spécialisé dans la stratégie d'entreprise, la transformation organisationnelle et le développement commercial. Nous travaillons aux côtés des dirigeants pour créer de la valeur durable.
+      </p>
+      <p class="section-lead reveal reveal-delay-2" style="margin-top:1rem">
+        Notre approche allie analyse rigoureuse, vision long terme et ancrage terrain — pour des recommandations qui se transforment en résultats concrets.
+      </p>
+
+      <div class="about__values">
+        <div class="about__value reveal reveal-delay-1">
+          <div class="about__value-icon">🎯</div>
+          <div class="about__value-name">Excellence</div>
+          <div class="about__value-desc">Chaque mission mérite notre meilleur niveau d'engagement.</div>
+        </div>
+        <div class="about__value reveal reveal-delay-2">
+          <div class="about__value-icon">🤝</div>
+          <div class="about__value-name">Confiance</div>
+          <div class="about__value-desc">Des relations durables bâties sur la transparence et l'intégrité.</div>
+        </div>
+        <div class="about__value reveal reveal-delay-1">
+          <div class="about__value-icon"></div>
+          <div class="about__value-name">Innovation</div>
+          <div class="about__value-desc">Des approches nouvelles pour des défis inédits.</div>
+        </div>
+        <div class="about__value reveal reveal-delay-2">
+          <div class="about__value-icon">🌍</div>
+          <div class="about__value-name">Impact</div>
+          <div class="about__value-desc">Des résultats mesurables qui transforment réellement les organisations.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ SERVICES ══════════════ -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="services__header">
+      <div>
+        <p class="section-tag reveal">Ce que nous faisons</p>
+        <h2 class="section-title reveal reveal-delay-1">Nos <em>expertises</em></h2>
+      </div>
+      <p class="section-lead reveal" style="max-width:320px;text-align:right">
+        Des offres modulables, construites autour de vos besoins réels.
+      </p>
+    </div>
+
+    <div class="services__grid">
+      <div class="service-card reveal">
+        <div class="service-card__num">01</div>
+        <h3 class="service-card__name">Stratégie & Positionnement</h3>
+        <p class="service-card__desc">Définir une vision claire, identifier les avantages concurrentiels et construire une feuille de route stratégique adaptée à votre marché.</p>
+        <div class="service-card__tags">
+          <span class="service-card__tag">Audit stratégique</span>
+          <span class="service-card__tag">Business plan</span>
+          <span class="service-card__tag">Analyse marché</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-card__num">02</div>
+        <h3 class="service-card__name">Transformation Organisationnelle</h3>
+        <p class="service-card__desc">Accompagner le changement, restructurer les processus et aligner les équipes autour d'une culture de performance et d'agilité.</p>
+        <div class="service-card__tags">
+          <span class="service-card__tag">Change management</span>
+          <span class="service-card__tag">RH & Culture</span>
+          <span class="service-card__tag">Process</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-card__num">03</div>
+        <h3 class="service-card__name">Développement Commercial</h3>
+        <p class="service-card__desc">Conquérir de nouveaux marchés, structurer l'offre commerciale et accélérer la croissance avec des stratégies go-to-market efficaces.</p>
+        <div class="service-card__tags">
+          <span class="service-card__tag">Go-to-market</span>
+          <span class="service-card__tag">Partenariats</span>
+          <span class="service-card__tag">Export</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-card__num">04</div>
+        <h3 class="service-card__name">Finance & Performance</h3>
+        <p class="service-card__desc">Optimiser la rentabilité, sécuriser le financement et mettre en place des outils de pilotage financier adaptés à votre croissance.</p>
+        <div class="service-card__tags">
+          <span class="service-card__tag">Pilotage</span>
+          <span class="service-card__tag">Financement</span>
+          <span class="service-card__tag">Optimisation</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-card__num">05</div>
+        <h3 class="service-card__name">Transition Digitale</h3>
+        <p class="service-card__desc">Intégrer les outils numériques au cœur de votre organisation, former les équipes et construire une infrastructure digitale pérenne.</p>
+        <div class="service-card__tags">
+          <span class="service-card__tag">Digital strategy</span>
+          <span class="service-card__tag">Outils SaaS</span>
+          <span class="service-card__tag">Data</span>
+        </div>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-card__num">06</div>
+        <h3 class="service-card__name">Formation & Coaching</h3>
+        <p class="service-card__desc">Développer les compétences managériales, renforcer le leadership des équipes dirigeantes et instaurer une culture d'apprentissage continu.</p>
+        <div class="service-card__tags">
+          <span class="service-card__tag">Leadership</span>
+          <span class="service-card__tag">Coaching exécutif</span>
+          <span class="service-card__tag">Ateliers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ ÉQUIPE ════════════════ -->
+<section class="section team" id="equipe">
+  <div class="container">
+    <p class="section-tag reveal">Les personnes derrière Nexoria</p>
+    <h2 class="section-title reveal reveal-delay-1">Notre <em>équipe</em></h2>
+    <p class="section-lead reveal reveal-delay-2">Des consultants expérimentés, issus de secteurs variés, unis par la même exigence d'excellence.</p>
+
+    <div class="team__grid">
+      <div class="team-card reveal">
+        <div class="team-card__avatar">👨🏾‍💼</div>
+        <div class="team-card__name">Amadou Diallo</div>
+        <div class="team-card__role">Fondateur & Directeur</div>
+      </div>
+      <div class="team-card reveal reveal-delay-1">
+        <div class="team-card__avatar">👩🏽‍💼</div>
+        <div class="team-card__name">Fatou Ndiaye</div>
+        <div class="team-card__role">Directrice Stratégie</div>
+      </div>
+      <div class="team-card reveal reveal-delay-2">
+        <div class="team-card__avatar">👨🏻‍💻</div>
+        <div class="team-card__name">Karim Diop</div>
+        <div class="team-card__role">Consultant Digital</div>
+      </div>
+      <div class="team-card reveal reveal-delay-3">
+        <div class="team-card__avatar">👩🏾‍🔬</div>
+        <div class="team-card__name">Aïssatou Ba</div>
+        <div class="team-card__role">Analyste Financière</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ CONTACT ═══════════════ -->
+<section class="section contact" id="contact">
+  <div class="container contact__grid">
+    <div>
+      <p class="section-tag reveal">Parlons de votre projet</p>
+      <h2 class="section-title reveal reveal-delay-1">Entrons en <em>contact</em></h2>
+      <p class="section-lead reveal reveal-delay-2" style="margin-bottom:2.5rem">
+        Un projet, une question, une opportunité ? Notre équipe vous répond sous 24h.
+      </p>
+
+      <div class="contact__info-item reveal">
+        <div class="contact__info-icon">📍</div>
+        <div>
+          <div class="contact__info-label">Adresse</div>
+          <div class="contact__info-value">12 Avenue Léopold Sédar Senghor, Dakar, Sénégal</div>
+        </div>
+      </div>
+      <div class="contact__info-item reveal">
+        <div class="contact__info-icon">📞</div>
+        <div>
+          <div class="contact__info-label">Téléphone</div>
+          <div class="contact__info-value">+221 33 820 00 00</div>
+        </div>
+      </div>
+      <div class="contact__info-item reveal">
+        <div class="contact__info-icon">✉️</div>
+        <div>
+          <div class="contact__info-label">Email</div>
+          <div class="contact__info-value">contact@nexoria.sn</div>
+        </div>
+      </div>
+      <div class="contact__info-item reveal">
+        <div class="contact__info-icon">🕐</div>
+        <div>
+          <div class="contact__info-label">Horaires</div>
+          <div class="contact__info-value">Lun–Ven, 8h00 – 18h00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact__form reveal">
+      <form class="contact__form-el">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nom">Nom complet</label>
+            <input type="text" id="nom" placeholder="Votre nom" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="votre@email.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="tel">Téléphone</label>
+            <input type="tel" id="tel" placeholder="+221 77 000 00 00">
+          </div>
+          <div class="form-group">
+            <label for="service">Service souhaité</label>
+            <select id="service">
+              <option value="">Choisir un service</option>
+              <option>Stratégie & Positionnement</option>
+              <option>Transformation Organisationnelle</option>
+              <option>Développement Commercial</option>
+              <option>Finance & Performance</option>
+              <option>Transition Digitale</option>
+              <option>Formation & Coaching</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-full">
+            <label for="message">Votre message</label>
+            <textarea id="message" placeholder="Décrivez votre projet ou votre besoin..." required></textarea>
+          </div>
+        </div>
+        <div class="form-submit">
+          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center">
+            Envoyer le message →
+          </button>
+        </div>
+      </form>
+      <div class="form-success">
+        ✅ Message envoyé avec succès !<br>
+        <span style="font-family:var(--body);font-size:0.9rem;color:var(--slate)">Nous vous répondrons sous 24h.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ FOOTER ════════════════ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__logo">Nexo<span>ria</span></div>
+    <nav class="footer__links">
+      <a href="#a-propos">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#equipe">Équipe</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="footer__copy">
+    © 2024 Nexoria — Cabinet de conseil en stratégie & transformation. Tous droits réservés.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
+
